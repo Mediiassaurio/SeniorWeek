@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(236, 221, 134, 0.5);
+}
+
+header{
+    background-color: rgb(108, 168, 187);
+    text-align: center;
+    padding: 4px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+header h1{
+    color: rgb(236, 221, 134);
+}
+
+#main-frame-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px 10px;
+}
+
+.info-frame{
+    background-color: gray;
+    border-radius: 3px;
+    text-align: center;
+    
+}
+
+/*                                      INFO FRAME 1                            */
+#info-frame1{
+    padding: 5px;
+    text-decoration: none;
+    font-size: 25px;
+    color: blanchedalmond;
+
+}
+
+#info-frame1:hover{
+    font-size: 30px;
+    padding: 0;
+    transition: 0.3s;
+    background-color: rgb(177, 168, 168);
+    color: rgb(241, 209, 159);
+}
+
+/*                                      INFO FRAME 2                            */
+#info-frame2{
+    padding: 5px;
+    text-decoration: none;
+    font-size: 25px; 
+    color: blanchedalmond;  
+}
+
+#info-frame2:hover{
+    font-size: 30px;
+    padding: 0;
+    transition: 0.3s;
+    background-color: rgb(177, 168, 168);
+    color: rgb(241, 209, 159);
+}
+
+/*                                      INFO FRAME 3                            */
+#info-frame3{
+    padding: 5px;
+    text-decoration: none;
+    font-size: 25px;
+    color: blanchedalmond;
+}
+
+#info-frame3:hover{
+    font-size: 30px;
+    padding: 0;
+    transition: 0.3s;
+    background-color: rgb(177, 168, 168);
+    color: rgb(241, 209, 159);
+}
+
+/*                                      INFO FRAME 4                            */
+#info-frame4{
+    padding: 5px;
+    text-decoration: none;
+    font-size: 25px;
+    color: blanchedalmond;
+}
+
+#info-frame4:hover{
+    font-size: 30px;
+    padding: 0;
+    transition: 0.3s;
+    background-color: rgb(177, 168, 168);
+    color: rgb(241, 209, 159);
+}
+
+/*                                      INFO FRAME 5                            */
+#info-frame5{
+    padding: 5px;
+    text-decoration: none;
+    font-size: 25px;
+    color: blanchedalmond;
+}
+
+#info-frame5:hover{
+    font-size: 30px;
+    padding: 0;
+    transition: 0.3s;
+    background-color: rgb(177, 168, 168);
+    color: rgb(241, 209, 159);
+}
+
+/*                                      INFO FRAME 6                            */
+#info-frame6{
+    grid-area: 2 / 1 / 2 /5;
+}
+
+#info-frame6 img{
+    width: 100%;
+}
+
+/*                                      INFO FRAME 7                            */
+#info-frame7{
+    grid-area: 2 / 5 /2 / 6;
+}
+
+#info-frame7 img{
+    width: 100%;
+}
+
